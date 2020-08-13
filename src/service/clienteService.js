@@ -2,7 +2,7 @@ const clienteModel = require('../models/cliente');
 
 module.exports = {
   BuscarClienteNaBase: async (numero) => {
-    if (numero.from === '556198301377@c.us') {
+    if (numero.from === '556193537517@c.us') {
       const cliente = await clienteModel.findOne({ numero: numero.from });
       if (cliente != null) {
         return cliente;
@@ -28,7 +28,7 @@ const cadastrarNovoCliente = async (numero) => {
     });
 
     await novoCliente.save();
-    return cliente;
+    return novoCliente;
   } catch (erro) {
     console.log('CADASTRAR_CLIENTE_ERRO' + erro);
   }

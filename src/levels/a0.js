@@ -1,4 +1,4 @@
-const nivelAdministrador = require('../helpers/variaveisGlobais');
+const administrador = require('../helpers/objGlobais');
 
 const aNivel0 = async (menssagem) => {
   const arrayMenssagem = [];
@@ -6,11 +6,11 @@ const aNivel0 = async (menssagem) => {
   arrayMenssagem.push({
     tipo: 'texto',
     msg: [
-      '====🤖*ROBOTIC-Assistente*====\nEscolha uma opção:\n\n*1)*-Resetar nível de Cliente\n\n\n\n *By*:Jonathan',
+      '*====🤖ROBOTIC====*\nEscolha uma opção:\n\n*1)*-Resetar nível de Cliente\n\n\n\n *By*:Jonathan',
     ],
   });
 
-  nivelAdministrador = 1;
+  administrador.nivelAdminsitrador.nivel = 1;
   return arrayMenssagem;
 };
 

@@ -48,7 +48,7 @@ const nivel2 = async (menssagem, cliente) => {
       destinatario: 'administrador',
       tipo: 'texto',
       msg: [
-        `🤖 Kamila o cliente\nNúmero ${menssagem.from}\nNome : ${menssagem.sender.name}\nEstá te esperando`,
+        `🤖 Kamila o cliente\nCódigo ${menssagem.from}\nNome : ${menssagem.sender.name}\nEstá te esperando`,
       ],
     });
 
