@@ -1,0 +1,21 @@
+[0812/114947.323:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name osarch, discarding value x86_64
+[0812/114947.325:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name pid, discarding value 1028
+[0812/114947.325:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name ptype, discarding value utility
+[0812/115120.097:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name osarch, discarding value x86_64
+[0812/115120.098:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name pid, discarding value 16084
+[0812/115120.098:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name ptype, discarding value utility
+[0812/121715.853:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name osarch, discarding value x86_64
+[0812/121715.854:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name pid, discarding value 9884
+[0812/121715.854:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name ptype, discarding value utility
+[0812/164408.356:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-9DyrxN\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/164408.358:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-9DyrxN\Crashpad\reports\e3e38d6d-08ad-4533-8351-b63483be2ddf.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/164408.358:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0812/185753.463:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-XWaWMq\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/185753.464:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-XWaWMq\Crashpad\reports\71ebf12e-d98b-46a3-ae46-59b8a0a2db62.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/185753.464:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0812/220211.291:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-UttOzi\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/220211.292:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-UttOzi\Crashpad\reports\c42929bc-9ecf-413f-9c07-e6525e4a89c9.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/220211.293:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0812/222427.419:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-vVU8tl\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/222427.420:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-vVU8tl\Crashpad\reports\e4498b4e-1b4e-4482-b633-74e214f02735.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0812/222427.420:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
