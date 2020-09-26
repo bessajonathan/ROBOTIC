@@ -1,6 +1,7 @@
-const aNivel0 = require('../levels/a0');
-const aNivel1 = require('../levels/a1');
-const administrador = require('../helpers/objGlobais');
+const aNivel0 = require("../levels/a0");
+const aNivel1 = require("../levels/a1");
+const aNivel2 = require("../levels/a2");
+const administrador = require("../helpers/objGlobais");
 
 const resposta = async (menssagem) => {
   switch (administrador.nivelAdminsitrador.nivel) {
@@ -10,6 +11,10 @@ const resposta = async (menssagem) => {
 
     case 1:
       return await aNivel1(menssagem);
+      break;
+
+    case 2:
+      return await aNivel2(menssagem);
       break;
 
     default:

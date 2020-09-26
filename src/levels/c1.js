@@ -1,31 +1,29 @@
-const clienteService = require('../service/clienteService');
+const clienteService = require("../service/clienteService");
 
-const path = require('path');
+const path = require("path");
 
 const nivel1 = async (menssagem, cliente) => {
   const arrayMenssagens = [];
 
-  if (menssagem == 1) {
+  if (menssagem.body == 1) {
     arrayMenssagens.push({
-      destinatario: 'cliente',
-      tipo: 'texto',
-      msg: ['O Valor do produto estará na descrição da imagem'],
+      destinatario: "cliente",
+      tipo: "texto",
+      msg: ["*====Opções====*\n *0)*-Voltar\n *9)*-Mais informações"],
     });
 
     BuscarVestidos(arrayMenssagens);
 
     arrayMenssagens.push({
-      destinatario: 'cliente',
-      tipo: 'texto',
-      msg: [
-        'Gostou de algum produto?\nVou te apresentar algumas opções\nEscolha alguma delas',
-      ],
+      destinatario: "cliente",
+      tipo: "texto",
+      msg: ["O Valor do produto estará na descrição da imagem"],
     });
 
     arrayMenssagens.push({
-      destinatario: 'cliente',
-      tipo: 'texto',
-      msg: ['*====Opções====*\n *0)*-Voltar\n *9)*-Comprar'],
+      destinatario: "cliente",
+      tipo: "texto",
+      msg: ["Vou te enviar as fotos"],
     });
 
     cliente.nivelAtendimento = 2;
@@ -41,79 +39,214 @@ const nivel1 = async (menssagem, cliente) => {
 
 const BuscarVestidos = (arrayMenssagens) => {
   arrayMenssagens.push({
-    destinatario: 'cliente',
-    tipo: 'imagem',
+    destinatario: "cliente",
+    tipo: "imagem",
     path: `${path.resolve(
       __dirname,
-      '..',
-      '..',
-      'public',
-      'imagens',
-      'v0.jpeg'
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v0.jpeg"
     )}`,
-    nome: 'Foto',
-    descricao: 'Valor *R$ 85,00*',
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
   });
 
   arrayMenssagens.push({
-    destinatario: 'cliente',
-    tipo: 'imagem',
+    destinatario: "cliente",
+    tipo: "imagem",
     path: `${path.resolve(
       __dirname,
-      '..',
-      '..',
-      'public',
-      'imagens',
-      'v1.jpeg'
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v1.jpeg"
     )}`,
-    nome: 'Foto',
-    descricao: 'Valor *R$ 85,00*',
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
   });
 
   arrayMenssagens.push({
-    destinatario: 'cliente',
-    tipo: 'imagem',
+    destinatario: "cliente",
+    tipo: "imagem",
     path: `${path.resolve(
       __dirname,
-      '..',
-      '..',
-      'public',
-      'imagens',
-      'v2.jpeg'
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v2.jpeg"
     )}`,
-    nome: 'Foto',
-    descricao: 'Valor *R$ 85,00*',
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
   });
 
   arrayMenssagens.push({
-    destinatario: 'cliente',
-    tipo: 'imagem',
+    destinatario: "cliente",
+    tipo: "imagem",
     path: `${path.resolve(
       __dirname,
-      '..',
-      '..',
-      'public',
-      'imagens',
-      'v3.jpeg'
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v3.jpeg"
     )}`,
-    nome: 'Foto',
-    descricao: 'Valor *R$ 85,00*',
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v4.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v5.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v6.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v7.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v8.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v9.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v10.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v11.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "imagem",
+    path: `${path.resolve(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      "imagens",
+      "v12.jpeg"
+    )}`,
+    nome: "Foto",
+    descricao: "Valor *R$ 85,00*",
   });
 };
 
 const RespostaOpcaoInvalida = (arrayMenssagens) => {
   arrayMenssagens.push({
-    destinatario: 'cliente',
-    tipo: 'texto',
-    msg: [
-      '*Opção inválida*\nSegue abaixo menu de opções dos produtos disponíveis\nEscolha uma das opções:',
-    ],
+    destinatario: "cliente",
+    tipo: "texto",
+    msg: ["*====Produtos====*\n *1)*-Vestidos 👗"],
   });
 
   arrayMenssagens.push({
-    destinatario: 'cliente',
-    tipo: 'texto',
-    msg: ['*====Produtos====*\n *1)*-Vestidos 👗'],
+    destinatario: "cliente",
+    tipo: "texto",
+    msg: [
+      "*Opção inválida*\nSegue abaixo menu de opções dos produtos disponíveis\nEscolha uma das opções:",
+    ],
   });
 };
 

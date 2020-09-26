@@ -7,7 +7,7 @@
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.28",
-    "venom-bot": "^1.1.4"
+    "venom-bot": "^2.0.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

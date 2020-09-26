@@ -1,5 +1,5 @@
-const clienteService = require('../service/clienteService');
-const BuscarMenssagem = require('../service/menssagemClienteService');
+const clienteService = require("../service/clienteService");
+const BuscarMenssagem = require("../service/menssagemClienteService");
 
 module.exports = {
   AtenderCliente: async (menssagem) => {
