@@ -7,7 +7,10 @@ const database = require("./src/database/configuracao");
 const ClienteController = require("./src/controller/ClienteController");
 
 const Iniciar = async () => {
-  venom.create().then((client) => start(client));
+  venom
+    .create("robotic", "", "", { browserArgs: ["--no-sandbox"] })
+    .then((client) => start(client));
+  // venom.create().then((client) => start(client));
   database();
 
   function start(client) {
