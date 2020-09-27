@@ -6,7 +6,7 @@ const nivel0 = async (cliente) => {
   arrayMenssagens.push({
     destinatario: "cliente",
     tipo: "texto",
-    msg: ["*1 *-Vestidos 👗"],
+    msg: ["*1*-Vestidos 👗"],
   });
 
   arrayMenssagens.push({
