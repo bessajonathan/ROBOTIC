@@ -245,7 +245,7 @@ const RespostaOpcaoInvalida = (arrayMenssagens) => {
     destinatario: "cliente",
     tipo: "texto",
     msg: [
-      "*Opção inválida*\nSegue abaixo menu de opções dos produtos disponíveis\nEnvie uma menssagem com o número correspondente da opção desejada",
+      "*Opção inválida*\nSegue abaixo menu de opções dos produtos disponíveis\nEnvie uma mensagem com o número correspondente da opção desejada",
     ],
   });
 };

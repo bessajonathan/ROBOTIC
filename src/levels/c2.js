@@ -71,7 +71,7 @@ const nivel2 = async (menssagem, cliente) => {
     destinatario: "cliente",
     tipo: "texto",
     msg: [
-      "Opção inválida\nEnvie uma menssagem com o número correspondente da opção desejada",
+      "Opção inválida\nEnvie uma mensagem com o número correspondente da opção desejada",
     ],
   });
 
