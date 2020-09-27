@@ -6,15 +6,25 @@ const nivel0 = async (cliente) => {
   arrayMenssagens.push({
     destinatario: "cliente",
     tipo: "texto",
-    msg: ["*1)*-Vestidos 👗"],
+    msg: ["*1 *-Vestidos 👗"],
   });
 
   arrayMenssagens.push({
     destinatario: "cliente",
     tipo: "texto",
-    msg: [
-      "🌺 Bem vindo(a) a Boutique\nKamila Vaz\nSegue abaixo menu de opções dos produtos disponíveis\nEscolha uma das opções:",
-    ],
+    msg: ["Envie uma menssagem com o número correspondente da opção desejada"],
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "texto",
+    msg: ["Segue abaixo menu de opções dos produtos disponíveis"],
+  });
+
+  arrayMenssagens.push({
+    destinatario: "cliente",
+    tipo: "texto",
+    msg: ["🌺 Olá, seja Bem vindo(a) a Boutique Kamila Vaz"],
   });
 
   cliente.nivelAtendimento = 1;

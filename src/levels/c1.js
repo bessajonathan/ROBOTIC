@@ -9,7 +9,7 @@ const nivel1 = async (menssagem, cliente) => {
     arrayMenssagens.push({
       destinatario: "cliente",
       tipo: "texto",
-      msg: ["*====Opções====*\n *0)*-Voltar\n *9)*-Mais informações"],
+      msg: ["*====Opções====*\n *0 *-Voltar\n *9 *-Mais informações"],
     });
 
     BuscarVestidos(arrayMenssagens);
@@ -238,14 +238,14 @@ const RespostaOpcaoInvalida = (arrayMenssagens) => {
   arrayMenssagens.push({
     destinatario: "cliente",
     tipo: "texto",
-    msg: ["*====Produtos====*\n *1)*-Vestidos 👗"],
+    msg: ["*====Produtos====*\n *1 *-Vestidos 👗"],
   });
 
   arrayMenssagens.push({
     destinatario: "cliente",
     tipo: "texto",
     msg: [
-      "*Opção inválida*\nSegue abaixo menu de opções dos produtos disponíveis\nEscolha uma das opções:",
+      "*Opção inválida*\nSegue abaixo menu de opções dos produtos disponíveis\nEnvie uma menssagem com o número correspondente da opção desejada",
     ],
   });
 };
