@@ -1,3 +1,12 @@
 [0926/030338.100:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-SnwajR\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
 [0926/030338.101:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-SnwajR\Crashpad\reports\168226db-e84b-45b8-bb9e-06765d5cb162.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
 [0926/030338.101:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0928/204935.685:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-RU94rr\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0928/204935.686:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-RU94rr\Crashpad\reports\28ff626f-bcbf-4000-b8c6-e6f4a98b7925.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0928/204935.686:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0928/205118.592:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-5bZIVF\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0928/205118.593:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-5bZIVF\Crashpad\reports\81ce702e-2ef0-4cb9-b521-b81b288da684.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0928/205118.593:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0928/205735.160:ERROR:file_io_win.cc(162)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-HDoBqQ\Crashpad\settings.dat: O sistema não pode encontrar o caminho especificado. (0x3)
+[0928/205735.161:ERROR:file_io_win.cc(171)] CreateFile C:\Users\Jonathan\AppData\Local\Temp\puppeteer_dev_chrome_profile-HDoBqQ\Crashpad\reports\c1c4647b-b02d-4837-8ca9-aa0dfa9435d0.dmp: O sistema não pode encontrar o caminho especificado. (0x3)
+[0928/205735.161:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

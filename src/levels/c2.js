@@ -7,7 +7,9 @@ const nivel2 = async (menssagem, cliente) => {
     arrayMenssagens.push({
       destinatario: "cliente",
       tipo: "texto",
-      msg: ["*====Produtos====*\n *1*-Vestidos 👗"],
+      msg: [
+        "*====Produtos====*\nEnvie uma mensagem com o número correspondente da opção desejada\n *1*-Vestidos 👗",
+      ],
     });
 
     cliente.nivelAtendimento = 1;
@@ -46,7 +48,7 @@ const nivel2 = async (menssagem, cliente) => {
       destinatario: "administrador",
       tipo: "texto",
       msg: [
-        `🤖 Kamila o cliente\nCódigo ${menssagem.from}\nNome : ${menssagem.sender.name}\nEstá te esperando`,
+        `🤖 Kamila o cliente\nCódigo ${menssagem.from}\nNome : ${menssagem.sender.pushname}\nEstá te esperando`,
       ],
     });
 
@@ -55,7 +57,7 @@ const nivel2 = async (menssagem, cliente) => {
       tipo: "imagem",
       path: menssagem.sender.profilePicThumbObj.eurl,
       nome: "Foto",
-      descricao: menssagem.sender.name,
+      descricao: menssagem.sender.pushname,
     });
 
     return arrayMenssagens;

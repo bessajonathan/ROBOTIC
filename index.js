@@ -7,10 +7,7 @@ const database = require("./src/database/configuracao");
 const ClienteController = require("./src/controller/ClienteController");
 
 const Iniciar = async () => {
-  venom
-    .create("robotic", "", "", { browserArgs: ["--no-sandbox"] })
-    .then((client) => start(client));
-  // venom.create().then((client) => start(client));
+  venom.create().then((client) => start(client));
   database();
 
   function start(client) {
@@ -18,7 +15,9 @@ const Iniciar = async () => {
       if (message.from === process.env.ADMINISTRADOR) {
         await Administrador(client, message);
       } else {
-        await Cliente(client, message);
+        if (!message.isGroupMsg) {
+          await Cliente(client, message);
+        }
       }
     });
   }
