@@ -6,7 +6,7 @@ const aNivel0 = async (menssagem) => {
   arrayMenssagem.push({
     tipo: "texto",
     msg: [
-      "*====🤖ROBOTIC====*\nEscolha uma opção:\n\n*1)*-Resetar nível de Cliente\n\n*2)*-Avisar contatos sobre novidade\n\n\n *By*:Jonathan",
+      "*====🤖ROBOTIC====*\nEscolha uma opção:\n\n*1)*-Resetar nível de Cliente\n\n*2)*-Avisar contatos sobre novidade\n\n*3)*-Assumir atendimento\n\n\n *By*:Jonathan",
     ],
   });
 

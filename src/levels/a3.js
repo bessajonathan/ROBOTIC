@@ -8,7 +8,7 @@ const aNivel2 = async (menssagem) => {
     const codigoCorerto = menssagem.body.includes("@c.us");
 
     if (codigoCorerto) {
-      await clienteService.resetarNivelCliente(menssagem.body);
+      await clienteService.assumirAtendimentoDoCliente(menssagem.body);
 
       arrayMenssagens.push({
         tipo: "texto",
@@ -19,7 +19,7 @@ const aNivel2 = async (menssagem) => {
 
       arrayMenssagens.push({
         tipo: "texto",
-        msg: ["Nivel do cliente resetado com Sucesso"],
+        msg: ["Você assumiu o atendimento do cliente."],
       });
 
       administrador.nivelAdminsitrador.nivel = 0;

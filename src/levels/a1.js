@@ -4,6 +4,16 @@ const administrador = require("../helpers/objGlobais");
 const aNivel1 = async (menssagem) => {
   const arrayMenssagem = [];
 
+  if (menssagem.body == 3) {
+    arrayMenssagem.push({
+      tipo: "texto",
+      msg: ["Informe o Código do Cliente"],
+    });
+
+    administrador.nivelAdminsitrador.nivel = 3;
+    return arrayMenssagem;
+  }
+
   if (menssagem.body == 1) {
     arrayMenssagem.push({
       tipo: "texto",
@@ -45,7 +55,7 @@ const RespostaOpcaoInvalida = (arrayMenssagem) => {
   arrayMenssagem.push({
     tipo: "texto",
     msg: [
-      "*Opção inválida*\nEscolha uma opção:\n\n*1)*-Resetar nível de Cliente\n*2)*-Avisar contatos sobre novidade",
+      "*Opção inválida*\nEscolha uma opção:\n\n*1)*-Resetar nível de Cliente\n\n*2)*-Avisar contatos sobre novidade\n\n*3)*-Assumir atendimento\n\n\n *By*:Jonathan",
     ],
   });
 };

@@ -22,6 +22,12 @@ module.exports = {
     cliente.nivelAtendimento = 0;
     await clienteModel.findOneAndUpdate({ _id: cliente.id }, cliente);
   },
+
+  assumirAtendimentoDoCliente: async (codigo) => {
+    const cliente = await clienteModel.findOne({ numero: codigo });
+    cliente.nivelAtendimento = 9;
+    await clienteModel.findOneAndUpdate({ _id: cliente.id }, cliente);
+  },
 };
 
 const cadastrarNovoCliente = async (numero) => {
