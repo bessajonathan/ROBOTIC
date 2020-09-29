@@ -127,51 +127,6 @@ const BuscarVestidos = (arrayMenssagens) => {
     nome: "Foto",
     descricao: "Valor *R$ 85,00*",
   });
-
-  arrayMenssagens.push({
-    destinatario: "cliente",
-    tipo: "imagem",
-    path: `${path.resolve(
-      __dirname,
-      "..",
-      "..",
-      "public",
-      "imagens",
-      "v6.jpeg"
-    )}`,
-    nome: "Foto",
-    descricao: "Valor *R$ 85,00*",
-  });
-
-  arrayMenssagens.push({
-    destinatario: "cliente",
-    tipo: "imagem",
-    path: `${path.resolve(
-      __dirname,
-      "..",
-      "..",
-      "public",
-      "imagens",
-      "v7.jpeg"
-    )}`,
-    nome: "Foto",
-    descricao: "Valor *R$ 85,00*",
-  });
-
-  arrayMenssagens.push({
-    destinatario: "cliente",
-    tipo: "imagem",
-    path: `${path.resolve(
-      __dirname,
-      "..",
-      "..",
-      "public",
-      "imagens",
-      "v8.jpeg"
-    )}`,
-    nome: "Foto",
-    descricao: "Valor *R$ 85,00*",
-  });
 };
 
 const RespostaOpcaoInvalida = (arrayMenssagens) => {
