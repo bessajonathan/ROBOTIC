@@ -97,21 +97,6 @@ const BuscarVestidos = (arrayMenssagens) => {
     nome: "Foto",
     descricao: "Valor *R$ 85,00*",
   });
-
-  arrayMenssagens.push({
-    destinatario: "cliente",
-    tipo: "imagem",
-    path: `${path.resolve(
-      __dirname,
-      "..",
-      "..",
-      "public",
-      "imagens",
-      "v4.jpeg"
-    )}`,
-    nome: "Foto",
-    descricao: "Valor *R$ 85,00*",
-  });
 };
 
 const RespostaOpcaoInvalida = (arrayMenssagens) => {
